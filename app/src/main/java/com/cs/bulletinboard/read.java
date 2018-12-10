@@ -14,7 +14,7 @@ public class read extends Activity {
 
         ArrayAdapter adapter = new ArrayAdapter(this, R.layout.simpleitem,LIST_MENU);
 
-        ListView listview = (ListView) findViewById(R.id.List_view2) ;
+        ListView listview = (ListView) findViewById(R.id.List_view2) ;;;;;;;;;;;;;;;;;;;;
         listview.setAdapter(adapter) ;
     }
 }
